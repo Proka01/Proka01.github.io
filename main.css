@@ -1,0 +1,272 @@
+.cream{
+    background-color: #FBDCB2;
+}
+
+.blue{
+    background-color: #14487A;
+}
+
+.lightgrey{
+    background-color: #EFEFF2;
+}
+
+.white{
+    background-color: white;
+}
+
+.rust{
+    background-color: #AC3814;
+}
+
+.onix{
+    background-color: #424242;
+}
+
+.naslov1{
+    font-family: 'Space Mono';
+}
+
+.naslov2{
+    font-family: 'Space Mono';
+}
+
+.naslov3{
+    font-family: 'Space Mono';
+}
+
+.podnaslov{
+    font-family: 'Roboto Mono';
+}
+
+.podpodnaslov{
+    font-family: 'Roboto';
+}
+
+.pasus{
+    font-family: 'Overpass';
+}
+
+.pasus2{
+    font-family: 'Overpass';
+}
+
+.podpasus{
+    font-family: 'Overpass';
+}
+
+.wigeti{
+    font-family: 'Overpass';
+}
+
+/* Media Query for Large devices */
+@media (min-width: 992px) {
+    .naslov1 {
+        font-size: 2.5em;
+    }
+
+    .naslov2{
+        font-size: 2em;
+    }
+
+    .naslov3{
+        font-size: 1.75em;
+    }
+
+    .podnaslov{
+        font-size: 1.5em;
+    }
+
+    .podpodnaslov{
+        font-size: 1.25em;
+    }
+
+    .pasus{
+        font-size: 1.125em;
+    }
+
+    .pasus2{
+        font-size: 1.2em;
+    }
+
+    .podpasus{
+        font-size: 1em;
+    }
+
+    .wigeti{
+        font-size: 1em;
+    }
+}
+/* Media Query for Medium devices */
+/* @media (min-width: 768px) and (max-width: 991px) {
+    .naslov1 {
+        font-size: 1.125rem;
+    }
+} */
+/* Media Query for Small devices */
+/* @media (max-width: 767px) {
+    .naslov1 {
+        font-size: 2em;
+    }
+
+    .naslov2{
+        font-size: 1.75em;
+    }
+
+    .naslov3{
+        font-size: 1.5em;
+    }
+
+    .podnaslov{
+        font-size: 1.25em;
+    }
+
+    .podpodnaslov{
+        font-size: 1.125em;
+    }
+
+    .pasus{
+        font-size: 1em;
+    }
+
+    .pasus2{
+        font-size: 1em;
+    }
+
+    .podpasus{
+        font-size: 0.875em;
+    }
+
+    .wigeti{
+        font-size: 0.875em;
+    }
+} */
+
+
+.offer_card{
+    background-color: #EFEFF2;
+    border-radius: 25px;
+    border: 1px solid #424242;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25), 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.my_icon{
+    width: 40px;
+    height: 40px;
+}
+
+.my_logo2{
+    width: 68px;
+    height: 68px;
+}
+
+.blue_txt{
+    font-size: large;
+    font-weight: 400;
+    color: #14487A;
+}
+
+.red_txt{
+    font-size: medium;
+    font-weight: 400;
+    color: #AC3814;
+}
+
+.search_bar_out{
+    height: 10%;
+    padding-left: 2%;
+    background-color: #EFEFF2;
+}
+
+.search_bar_in{
+    height: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #EFEFF2;
+}
+
+.round_left{
+    border-radius: 10px 0 0 10px;
+}
+
+.search_btn{
+    background-color: #14487A;
+    color: white;
+}
+
+.tld_out{
+    background-color: #14487A;
+    border-radius: 25px;
+}
+
+.tld_in{
+    background-color: #EFEFF2;
+}
+
+.web_hosting_out{
+    border-radius: 25px;
+    background-color: #EFEFF2;
+    border: 1px solid #AC3814;
+}
+
+.web_hosting_in{
+    border-color: #AC3814;
+}
+
+.about_card{
+    background-color: #EFEFF2;
+    border-radius: 25px;
+    border: 1px solid #424242;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25), 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.blue_round{
+    background-color: #14487A;
+    border-radius: 25px;
+    padding: 5%;
+}
+
+.my_img{
+    max-width: 100%;
+    height: auto;
+}
+
+.my_logo{
+    width: 96px;
+    height: 96px;
+}
+
+
+.search{
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+      
+    }
+
+.search input{
+
+    height: 48px;
+    /* text-indent: 25px; */
+    border: 2px solid #d6d4d4;
+
+
+}
+
+
+.search input:focus{
+
+    box-shadow: none;
+    border: 2px solid #14487A;
+
+
+}
+
+.search button{
+
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    /* height: 50px;
+    width: 110px; */
+    background: #14487A;
+
+}

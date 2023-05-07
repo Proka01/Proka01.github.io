@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 5 Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Space Mono' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto Mono' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Overpass">  
+  <link rel="stylesheet" href="main.css">
+  
+
+  <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="manifest" href="icons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+    /* .container div {border: 1px solid black} */
+  </style>
+
+</head>
+<body>
+
+    <!-- navigation bar -->
+    <nav class="navbar navbar-expand-lg blue">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="logo.png" alt="Logo" class="d-inline-block align-text-top me-2 my_logo">
+          </a>
+          <div><h1 class="naslov1" style="color: #f2e2cd;">CyperWebb</h1></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#offers"><h4 class="naslov3" style="color: #f2e2cd;">Offers</h4></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#tld"><h4 class="naslov3" style="color: #f2e2cd;">TLD</h4></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about"><h4 class="naslov3" style="color: #f2e2cd;">About us</h4></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+      
+
+<!-- white -->
+<div class="container-fluid">
+</div>
+
+<!-- offers text -->
+<div id="offers" class="container-fluid cream">
+    <div class="container">
+        <h2 class="naslov2"><b>Offers</b></h2>
+        <p class="pasus">All packages come with free SSD disks and SSL sertificates</p>
+    </div>
+</div>
+
+<!-- offers cards -->
+<div class="container-fluid mt-5">
+    <div class="container">
+
+        <div class="row mb-2">
+
+            <div class="col-lg-5 col-12 col-sm-12 offer_card">
+                <div class="d-flex align-items-center mt-2">
+                    <img src="servers.png" alt="My Icon" class="img-fluid my_icon me-2">
+                    <h3 class="text-center flex-grow-1 podnaslov"><b>Web hosting</b></h3>
+                </div>
+
+                <div class="row mt-1">
+                    <div class="col-lg-11 offset-lg-1 col-11 offset-1">
+                      <p class="blue_txt wigeti">4GB CPU, 1 CPU core, 1GB RAM  from  2400 rsd/month</p>
+                    </div>
+                </div>
+
+                <div class="row mt-1">
+                    <div class="col-lg-11 offset-lg-1 col-11 offset-1">
+                        <a href="web-hosting.html" style="text-decoration: none;"><p class="red_txt podpasus">Learn more-></p></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-12 mb-2 mt-2 col-sm-12"></div>
+
+            <div class="col-lg-5 col-12 col-sm-12 mt-sm-2 offer_card" style="border: 4px solid #AC3814;">
+                <div class="d-flex align-items-center mt-2">
+                    <img src="server.png" alt="My Icon" class="img-fluid my_icon me-2">
+                    <h3 class="text-center flex-grow-1 podnaslov"><b>Business hosting</b></h3>
+                </div>
+
+                <div class="row mt-1">
+                    <div class="col-lg-11 offset-lg-1 col-11 offset-1">
+                      <p class="blue_txt wigeti">25GB CPU, 2 CPU cores, 4GB RAM od 2500 rsd/month</p>
+                    </div>
+                </div>
+
+                <div class="row mt-1">
+                    <div class="col-lg-11 offset-lg-1 col-11 offset-1">
+                        <a href="business-hosting.html" style="text-decoration: none;"><p class="red_txt podpasus">Learn more-></p></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-lg-5 mt-3">
+            <div class="col-lg-5 col-12 col-sm-12 mt-sm-2 offer_card">
+                <div class="d-flex align-items-center mt-2">
+                    <img src="servers.png" alt="My Icon" class="img-fluid my_icon me-2">
+                    <h3 class="text-center flex-grow-1 podnaslov"><b>Vps server</b></h3>
+                </div>
+
+                <div class="row mt-1">
+                    <div class="col-lg-11 offset-lg-1 col-11 offset-1">
+                      <p class="blue_txt wigeti">4GB CPU, 1 CPU core, 1GB RAM  from  2400 rsd/month</p>
+                    </div>
+                </div>
+
+                <div class="row mt-1">
+                    <div class="col-lg-11 offset-lg-1 col-11 offset-1">
+                      <p class="red_txt podpasus">Learn more-></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-12 mb-2 mt-2 col-sm-12"></div>
+
+            <div class="col-lg-5 col-12 col-sm-12 mt-sm-2 offer_card">
+                <div class="d-flex align-items-center mt-2">
+                    <img src="servers.png" alt="My Icon" class="img-fluid my_icon me-2">
+                    <h3 class="text-center flex-grow-1 podnaslov"><b>Dedicated server</b></h3>
+                </div>
+
+                <div class="row mt-1">
+                    <div class="col-lg-11 offset-lg-1 col-11 offset-1">
+                      <p class="blue_txt wigeti">4GB CPU, 1 CPU core, 1GB RAM  from  2400 rsd/month</p>
+                    </div>
+                </div>
+
+                <div class="row mt-1">
+                    <div class="col-lg-11 offset-lg-1 col-11 offset-1">
+                      <p class="red_txt podpasus">Learn more-></p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<!-- domain text -->
+<div id="tld" class="container-fluid cream mt-5 mb-5">
+    <div class="container">
+        <h2 class="naslov2"><b>Grab your domain at best price</b></h2>
+        <p class="pasus">Find domain name by your desire and TLD with best price</p>
+    </div>
+</div>
+
+<!-- domain bar and table -->
+<div class="container-fluid mb-5">
+
+    <div class="container wigeti">
+        <br>
+
+        <!-- search bar -->
+        <div class="row height d-flex justify-content-center align-items-center">
+
+            <div class="col-lg-10 col-sm-10">
+
+              <div class="search">
+                <input type="text" class="form-control" placeholder="Find your domain">
+                <button class="btn btn-primary">CHECK</button>
+              </div>
+              
+            </div>
+            
+        </div>
+
+        <!-- table -->
+        <div class="row mt-4">
+            <div class="col-lg-12 pt-3 px-4 tld_out">
+                <div class="table-responsive">
+                <table class="table table-bordered mx-auto tld_in">
+                    <tbody>
+                      <tr>
+                        <td><b>TLD</b></td>
+                        <td>.com</td>
+                        <td>.net</td>
+                        <td>.info</td>
+                        <td>.rs</td>
+                        <td>.co.rs</td>
+                        <td>.in.rs</td>
+                      </tr>
+                      <tr>
+                        <td><b>Price per year</b></td>
+                        <td>1400 rsd</td>
+                        <td>1400 rsd</td>
+                        <td>1400 rsd</td>
+                        <td>1400 rsd</td>
+                        <td>1400 rsd</td>
+                        <td>1400 rsd</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <br><br><br>
+</div>
+
+<!-- about us text -->
+<div id="about" class="container-fluid cream mt-5">
+    <div class="container">
+        <h2 class="naslov2"><b>Why clients choose us</b></h2>
+        <p class="pasus">See why we have best deals</p>
+    </div>
+</div>
+
+<!-- about us cards -->
+<div class="container-fluid">
+    <div class="container">
+
+        <div class="row mt-5">
+            <div class="col-lg-12 col-12 col-sm-12 about_card">
+                <div class="row">
+                    <div class="col-lg-9 col-9 col-sm-9 mt-4 overflow-auto" style="max-height: 300px;"> 
+                        <div class="row"> <h3 class="podnaslov"><b>Migrate to us</b></h3></div>
+                        <div class="row mt-5"> <p class="pasus2">We offer free migration! Just contact our support operators and we will do all the necessary switching for you. We will transfer all files, databases, email accounts and anything else you want. The migration is done quickly and your site will not be unavailable at any time during the transfer to our servers. Choose one of the web hosting or reseller packages. If you think you need more resources, we also offer VPS, Cloud and dedicated (dedicated) server.
+
+                        </p></div>
+                    </div>
+                    <div class="col-lg-3 col-3 col-sm-3 blue_round d-flex justify-content-center align-items-center">
+                        <img src="migration.png" class="img-fluid my_img">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-lg-12 col-12 col-sm-12 about_card">
+                <div class="row">
+                    <div class="col-lg-3 col-3 col-sm-3 blue_round d-flex justify-content-center align-items-center">
+                        <img src="user.png" class="img-fluid my_img">
+                    </div>
+                    <div class="col-lg-9 col-9 col-sm-9 mt-4 pl-3"> 
+                        <div class="row"> <h3 class="podnaslov"><b>Goals and proposals</b></h3></div>
+                        <div class="row mt-5 pl-3 pasus2"> 
+                            <div class="col-lg-12 col-12 col-sm-12 overflow-auto ml-2" style="max-height: 200px;">
+                                <ul>
+                                    <li>We have adjusted the prices of our services to market conditions and we freely claim that we offer the best hosting solutions on the most favorable terms in the territory of Serbia
+                                    </li>
+
+                                    <li>Domain registrations, in addition to affordable hosting services, are aligned with purchase prices, so that the costs of your appearance on the Internet are reduced to a minimum.
+                                    </li>
+
+                                    <li>
+                                        A stable and secure hosting solution is a support in conquering the Internet market. With our support along the way, all you have to do is focus on the goals of your business.
+                                    </li>
+
+                                    <li>Our goal is satisfied hosting users in Serbia. In this regard, we look forward to successful and quality cooperation.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5 mb-4">
+            <div class="col-lg-12 col-12 col-sm-12 about_card">
+                <div class="row">
+                    <div class="col-lg-9 col-9 col-sm-9 mt-4"> 
+                        <div class="row ml-1"> <h3 class="podnaslov"><b>Best hosting provider in Serbia</b></h3></div>
+                        <div class="row mt-5"> <p class="pasus2">We are a CyperWebb hosting provider from Serbia that offers you services according to world standards in the domestic market.
+                            Our services are tailored to both natural and legal persons.
+                            
+                            
+                        </p></div>
+                    </div>
+                    <div class="col-lg-3 col-3 col-sm-3 blue_round d-flex justify-content-center align-items-center">
+                        <img src="badge.png" class="img-fluid my_img">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<footer class="onix text-white py-4 mt-5 wigeti">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-12 mb-3 mb-md-0">
+            <h6>DO YOU HAVE A QUESTION OR QUESTION<br> BEFORE YOU BUY?</h6>
+            <p>
+                Call us <br>
+                Monday - Friday 09-17h<br>
+                +381601234567
+            </p>
+            <img src="dark_logo.png" alt="Company Logo" class="my_logo2">
+        </div>
+        <div class="col-md-4 col-sm-6 mb-3 mb-md-0">
+          <h5>Info</h5  >
+          <ul class="list-unstyled">
+            <li>Pib: 01234567</li>
+            <li>Registration number: 00123435
+            </li>
+            <li>The company has been in <br>business for 12 years.
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <h5>Subscribe to our Newsletter</h5>
+            <h7>The company publishes articles on the site once a week, on current topics related to hosting, site protection, etc. You can get examples from the RAF reading room.</h7>
+            <form>
+                <div class="form-group">
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                </div>
+                <button type="submit" class="btn rust">Subscribe</button>
+              </form>
+        </div>
+      </div>
+      <hr class="bg-warning my-4">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <p>&copy; 2023 CyperWebb. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
